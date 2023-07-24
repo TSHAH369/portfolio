@@ -8,13 +8,13 @@
 
 
 ;; -------------------------------------------------------------------------
-;; ***** PORTFOLIO Layout starts *****
+;; ** PORTFOLIO Layout starts **
 ;; -------------------------------------------------------------------------
 
 -- layout.base-layout:
 
 ;; ----------------------------------------------------------------
-;; ***** PORTFOLIO Header starts *****
+;; ** PORTFOLIO Header starts **
 ;; ----------------------------------------------------------------
 
 -- navbar.header:
@@ -29,15 +29,15 @@ header-item2-link: /portfolio/about
 header-item3-link: /portfolio/blogs
 header-item4-link: /portfolio/projects
 cta-item2: Resume
-cta-item2-link: /Tanishq/resume
+cta-item2-link: /portfolio/resume
 
 ;; ----------------------------------------------------------------
-;; ***** PORTFOLIO Header ends *****
+;; ** PORTFOLIO Header ends **
 ;; ----------------------------------------------------------------
 
 
 ;; -----------------------------------------------------
-;; ***** PORTFOLIO Toast starts *****
+;; ** PORTFOLIO Toast starts **
 ;; -----------------------------------------------------
 
 -- toast.stack:
@@ -45,19 +45,19 @@ title: Hello, I'm aspiring fastn developer based in India
 link: https://github.com/TSHAH369
 
 ;; -----------------------------------------------------
-;; ***** PORTFOLIO Toast ends *****
+;; ** PORTFOLIO Toast ends **
 ;; -----------------------------------------------------
 
 
 ;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI starts *****
+;; ** PORTFOLIO Hero UI starts **
 ;; ------------------------------------------
 
 -- ftd.container:
 padding-bottom.px: 20
 
 ;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Mobile view starts *****
+;; ** PORTFOLIO Hero UI Mobile view starts **
 ;; ------------------------------------------
 
 -- ftd.mobile:
@@ -76,7 +76,7 @@ spacing.fixed.px: 20
 
 -- lib.hero-ui-base-text-wrapper:
 firstTitle: I'm
-secondTitle: Tanishq,
+secondTitle: Saumya,
 
 -- lib.hero-ui-base-text-wrapper:
 firstTitle: frontend
@@ -109,20 +109,18 @@ isNewTab: true
 
 
 ;; --------------------------------
-;; ***** PORTFOLIO Socials starts *****
+;; ** PORTFOLIO Socials starts **
 ;; --------------------------------
 
 -- ftd.row:
 spacing.fixed.px: 10
 
 -- social.social-button-wrapper:
-link: https://linkedin.com/in/www.linkedin.com/in/tanishq-shah-099211235
-
-
+link: https://linkedin.com/in/tanishq-shah-099211235
 image: $assets.files.images.linkedin.png
 
 -- social.social-button-wrapper:
-link: https://twitter.com/@Tanishq_369
+link: https://twitter.com/Tanishq_369
 image: $assets.files.images.twitter.png
 
 -- social.social-button-wrapper:
@@ -140,7 +138,7 @@ image: $assets.files.images.mail.png
 -- end: ftd.row
 
 ;; --------------------------------
-;; ***** PORTFOLIO Socials ends *****
+;; ** PORTFOLIO Socials ends **
 ;; --------------------------------
 
 -- end: ftd.column
@@ -150,7 +148,7 @@ image: $assets.files.images.mail.png
 -- end: ftd.mobile
 
 ;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Mobile view ends *****
+;; ** PORTFOLIO Hero UI Mobile view ends **
 ;; ------------------------------------------
 
 ;; ----------------------------------------------------------------
@@ -158,7 +156,7 @@ image: $assets.files.images.mail.png
 
 
 ;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Desktop view starts *****
+;; ** PORTFOLIO Hero UI Desktop view starts **
 ;; ------------------------------------------
 
 -- ftd.desktop:
@@ -196,27 +194,25 @@ link: mailto:tanishqsh11@gmail.com
 
 -- button.primary:
 title: Schedule a Meeting
-link: 
+link: tanishqsh11@gmail.com
 isNewTab: true
 
 -- end: ftd.row
 
 ;; --------------------------------
-;; ***** PORTFOLIO Socials starts *****
+;; ** PORTFOLIO Socials starts **
 ;; --------------------------------
 
 -- ftd.row:
 spacing.fixed.px: 10
 
 -- social.social-button-wrapper:
-link: https://linkedin.com/in/www.linkedin.com/in/tanishq-shah-099211235
-
-
+link: https://linkedin.com/in/tanishq-shah-099211235
 image: $assets.files.images.linkedin.png
 
 -- social.social-button-wrapper:
-link: https://twitter.com/
-image: $assets.files.images.tw@Tanishq_369itter.png
+link: https://twitter.com/Tanishq_369
+image: $assets.files.images.twitter.png
 
 -- social.social-button-wrapper:
 link: https://github.com/TSHAH369
@@ -233,7 +229,7 @@ image: $assets.files.images.mail.png
 -- end: ftd.row
 
 ;; --------------------------------
-;; ***** PORTFOLIO Socials ends *****
+;; ** PORTFOLIO Socials ends **
 ;; --------------------------------
 
 -- end: ftd.column
@@ -247,17 +243,17 @@ width.fixed.px: 400
 -- end: ftd.desktop
 
 ;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Desktop view ends *****
+;; ** PORTFOLIO Hero UI Desktop view ends **
 ;; ------------------------------------------
 
 -- end: ftd.container
 
 ;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI ends *****
+;; ** PORTFOLIO Hero UI ends **
 ;; ------------------------------------------
 
 -- end: layout.base-layout
 
 ;; -------------------------------------------------------------------------
-;; ***** PORTFOLIO Layout ends *****
+;; ** PORTFOLIO Layout ends **
 ;; -------------------------------------------------------------------------
